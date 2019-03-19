@@ -78,7 +78,7 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
-For a single line comment in JavaScript, we can just add two slashes "//" (without the quotes) in front of the line. For commenting out a chunk of code, we can add "/*" in the beginning and "*/" at the end (again, without the quotes).
+For a single line comment in JavaScript, we can just add two slashes "//" (without the quotes) in front of the line. For commenting out a chunk of code, we can add " /* " in the beginning and "*/" at the end (again, without the quotes).
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 
@@ -93,8 +93,10 @@ For a single line comment in JavaScript, we can just add two slashes "//" (witho
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
+It's getting the length of all the list items (li) in the document - there are 9 of them - and showing that number where the id is "items", which is next to the sentence "The number of list items for this page: ".
 
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
+The color of the background of this page would be white without JavaScript.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
