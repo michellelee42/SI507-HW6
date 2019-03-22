@@ -57,7 +57,7 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 ### Names of people you have worked with on this assignment
 * List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**\
-**Michelle Lee (syleeusa)**
+**Michelle Lee (syleeusa)**\
 Sanghyun Lee (shleec)
 
 ## Questions & code instructions
@@ -73,7 +73,7 @@ Some JavaScript code
 ```
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**\
-For a single line comment in JavaScript, we can just add two slashes (//) (without the parentheses) in front of the line. For commenting out a chunk of code, we can add a slash and asterisk (/*) in the beginning and (*/) at the end (again, without the parentheses).
+For a single line comment in JavaScript, we can just add two slashes // in front of the line. For commenting out a chunk of code, we can add a slash and asterisk /* in the beginning and */ at the end of the chunk that needs to be commented out.
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**\
 For a JavaScript program to "run", it seems like first of all, the JavaScript codes need to be written inside <script> tags. In addition, functions and events are needed, as well as a browser to see how the program is being run.
@@ -85,8 +85,10 @@ The two functions that seem to be similar to the 'print' function in Python are 
 'alert("hello");' has to be commented out to get rid of the pop-up box when the page is loaded.
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**\
+The h1 tags are used for the title of the page. So we select that using the querySelector, and change the inner HTML of it to replace what's in the HTML tag to "Michelle".
 
 * **What does the word `document` represent in this code? Explain briefly.**\
+The 'document' object represents the HTML document that is displayed in the window.
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
@@ -114,6 +116,8 @@ function handleClick(){
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
 
+\
+Using HTML, a button was created with the name "Wow" .###jefwioejfo
 
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**\
