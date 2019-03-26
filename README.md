@@ -102,7 +102,7 @@ The color of the background of this page would be white without JavaScript.
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**\
 The boxes are gray because the 'background-color' is set for the paragraph tags in the style tags, meaning css is taking some action. In order to make this into a different color, the color hex code just needs to be changed.
 
-* **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**\
+* **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
@@ -118,7 +118,7 @@ function handleClick(){
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
 
-Using HTML, a button was created with the name "Wow" .###jefwioejfo
+Using HTML, a button was created with the text "Wow" on it. When the button is clicked, a text box containing "hello" appears. This is because the javascript function handleClick allows the alert to show up (which is similar to the 'print' function in python, as mentioned previously).
 
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
@@ -126,15 +126,18 @@ Using HTML, a button was created with the name "Wow" .###jefwioejfo
 
 ### The next few questions address the `jquerylib_submit_example.html` file.
 
-* **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**\
+* **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**\
+The error is in red and the valid inputs are in blue because using the style tags, css was used to specify the colors for instances that are errors and "good" inputs.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**\
+The text to the right of the equation shows regular expression. 
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**\
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**\
+I think it has to do with the duration that the text is shown on the browser.
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
