@@ -132,12 +132,13 @@ Using HTML, a button was created with the text "Wow" on it. When the button is c
 The error is in red and the valid inputs are in blue because using the style tags, css was used to specify the colors for instances that are errors and "good" inputs.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**\
-The text to the right of the equation shows regular expression. 
+The text to the right of the equation shows regular expression. The line helps to check if the input includes only smallcase and uppercase letters and not anything else, such as numbers, punctuations, etc.
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**\
+In python, indentations are primarily used in order to distinguish between the if/else statements. In JavaScript, looks like it uses brackets and parentheses - the condition is put into parentheses, and the execution is put into the squiggly brackets.
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**\
-I think it has to do with the duration that the text is shown on the browser.
+I think it has to do with the duration that the text is shown on the browser in milliseconds. 
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
