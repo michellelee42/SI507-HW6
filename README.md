@@ -57,8 +57,9 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 ### Names of people you have worked with on this assignment
 * List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**\
-**Michelle Lee (syleeusa)**\
-Sanghyun Lee (shleec)
+\
+* **Michelle Lee (syleeusa)**\
+* Sanghyun Lee (shleec)
 
 ## Questions & code instructions
 
@@ -99,9 +100,10 @@ It's getting the length of all the list items (li) in the document - there are 9
 The color of the background of this page would be white without JavaScript.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**\
-The boxes are gray because the 'background-color' is set for the <p> tags in the <style> tags, meaning css is taking some action. In order to make this into a different color, the color hex code just needs to be changed.
+The boxes are gray because the 'background-color' is set for the paragraph tags in the style tags, meaning css is taking some action. In order to make this into a different color, the color hex code just needs to be changed.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**\
+
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
@@ -116,12 +118,10 @@ function handleClick(){
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
 
-\
 Using HTML, a button was created with the name "Wow" .###jefwioejfo
 
 
-* **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**\
-
+* **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
 
 
 ### The next few questions address the `jquerylib_submit_example.html` file.
