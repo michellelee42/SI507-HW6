@@ -57,8 +57,8 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 ### Names of people you have worked with on this assignment
 * List everyone's names and uniqnames who have worked on this assignment with you, **including your own name, but make sure YOUR name is first and bold**\
-\
-* **Michelle Lee (syleeusa)**\
+
+* **Michelle Lee (syleeusa)**
 * Sanghyun Lee (shleec)
 
 ## Questions & code instructions
@@ -132,13 +132,13 @@ Using HTML, a button was created with the text "Wow" on it. When the button is c
 The error is in red and the valid inputs are in blue because using the style tags, css was used to specify the colors for instances that are errors and "good" inputs.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**\
-The text to the right of the equation shows regular expression. The line helps to check if the input includes only smallcase and uppercase letters and not anything else, such as numbers, punctuations, etc.
+The text to the right of the equation shows regular expression. The line helps to check if the input includes only smallcase and uppercase letters and not anything else, such as numbers, punctuations, etc. It makes sure the input is indeed a "word" - in our case, it may not be a real word, but it'll still read it as a valid input.
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**\
 In python, indentations are primarily used in order to distinguish between the if/else statements. In JavaScript, looks like it uses brackets and parentheses - the condition is put into parentheses, and the execution is put into the squiggly brackets.
 
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**\
-I think it has to do with the duration that the text is shown on the browser in milliseconds. 
+I think it has to do with the duration that the text is shown on the browser in milliseconds.
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
@@ -147,6 +147,7 @@ $(document).ready(function(){
     $("form").submit(function(event){
 ```
 
+I think the code prepares/marks the beginning of a code to run, telling the document that it should prepare for some input in the "form" that the user is going to submit. In the case of a submission, it has what's going to happen in the conditional statements as events. 
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
