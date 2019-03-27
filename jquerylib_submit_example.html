@@ -21,13 +21,16 @@ $(document).ready(function(){
             $("#result").html('<p class="error">Not valid!</p>').show().fadeOut(10000);
             // Preventing form submission
             event.preventDefault();
-        } else {
+        }
+        else if((currentValue) == "hello") {
+          $("#result").html('<p class="good">Hello to you too!</p>').show().fadeOut(10000);
+        }
+          else {
             $("#result").html('<p class="good">Nice!</p>').show().fadeOut(10000);
         }
     });
 });
-</script>
-</head>
+</script></head>
 <body>
     <p><strong>Note:</strong> If you try to submit any invalid value -- you will see an error.</p>
     <form action="" method="post" id="users">

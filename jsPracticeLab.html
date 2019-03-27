@@ -28,9 +28,9 @@
 	function copyFunction(){
 		document.querySelector('#cheer').innerHTML += "Go blue!<br>"
 	}
-	// function copyFunction(){
-	// 	document.querySelector('#cheer2').innerHTML += "O Canada<br>"
-	// }
+	function copy(){
+		document.querySelector('#cheer2').innerHTML += "O Canada<br>"
+	}
 	function handleClick(){
 		alert("hello");
 	}
@@ -68,11 +68,13 @@ p{
 	<ul>
 		<li>Kent State</li>
 		<li>University of Pittsburgh</li>
-		<li oncopy="copyFunction()">McGill University</li>
+		<li oncopy="copy()">McGill University</li>
 		<li>California State University Long Beach</li>
 		<li oncopy="copyFunction()">University of Michigan</li>
 	</ul>
 	<div id="cheer">
+	</div>
+	<div id="cheer2">
 	</div>
 
 	<button onclick=handleClick() id="wow-button">Wow</button>

@@ -103,7 +103,7 @@ The color of the background of this page would be white without JavaScript.
 The boxes are gray because the 'background-color' is set for the paragraph tags in the style tags, meaning css is taking some action. In order to make this into a different color, the color hex code just needs to be changed.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
-
+I made a new function name with "oncopy" for McGill and called it in the script tags 
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
@@ -147,7 +147,7 @@ $(document).ready(function(){
     $("form").submit(function(event){
 ```
 
-I think the code prepares/marks the beginning of a code to run, telling the document that it should prepare for some input in the "form" that the user is going to submit. In the case of a submission, it has what's going to happen in the conditional statements as events. 
+I think the code prepares/marks the beginning of a code to run, telling the document that it should prepare for some input in the "form" that the user is going to submit. In the case of a submission, it has what's going to happen in the conditional statements as events.
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
