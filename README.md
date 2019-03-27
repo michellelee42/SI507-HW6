@@ -102,7 +102,7 @@ The color of the background of this page would be white without JavaScript.
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**\
 The boxes are gray because the 'background-color' is set for the paragraph tags in the style tags, meaning css is taking some action. Similarly, the 'border' color of 5px is also specified to white, which is why the box and border colors are different. In order to make this into a different color, the color hex code just needs to be changed.
 
-* **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
+* **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**\
 I knew that a similar thing happened when you copy "University of Michigan" except the cheer was different. So I made a new function name with "oncopy" for McGill and called it in the script tags, just like the function with UM. Then I just changed the innerHTML string to say "O Canada."
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
