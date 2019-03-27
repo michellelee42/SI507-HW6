@@ -100,10 +100,10 @@ It's getting the length of all the list items (li) in the document - there are 9
 The color of the background of this page would be white without JavaScript.
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**\
-The boxes are gray because the 'background-color' is set for the paragraph tags in the style tags, meaning css is taking some action. In order to make this into a different color, the color hex code just needs to be changed.
+The boxes are gray because the 'background-color' is set for the paragraph tags in the style tags, meaning css is taking some action. Similarly, the 'border' color of 5px is also specified to white, which is why the box and border colors are different. In order to make this into a different color, the color hex code just needs to be changed.
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
-I made a new function name with "oncopy" for McGill and called it in the script tags 
+I made a new function name with "oncopy" for McGill and called it in the script tags
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
@@ -129,7 +129,7 @@ Using HTML, a button was created with the text "Wow" on it. When the button is c
 * **Check out the file `jquerylib_submit_example.html`. This is an example of code that uses a package called `jQuery` (and this will need you to have an internet connection to run it properly, although the other file does not). Check out resources above for more on jQuery!**
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**\
-The error is in red and the valid inputs are in blue because using the style tags, css was used to specify the colors for instances that are errors and "good" inputs.
+The error is in red and the valid inputs are in blue because using the style tags, css was used to specify the colors for instances that are "error" inputs and "good" inputs.
 
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**\
 The text to the right of the equation shows regular expression. The line helps to check if the input includes only smallcase and uppercase letters and not anything else, such as numbers, punctuations, etc. It makes sure the input is indeed a "word" - in our case, it may not be a real word, but it'll still read it as a valid input.
